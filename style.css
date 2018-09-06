@@ -1,0 +1,36 @@
+
+
+<style>
+
+		input[required] {border: solid 1px black;}
+		input:not([type=submit]):valid{box-shadow: 0 0 3px 1px #8FDC00;}
+		input:not([type=submit]):invalid{box-shadow: 0 0 3px 1px #ECA735; border: solid 1px black }
+		input{width:150px;}
+		input[type=range]{margin: 0;}
+		label{width:150px;display: inline-block;}
+		textarea{width:150px;}
+		textarea[type=range]{margin: 0;}
+		textarea[required] {border: solid 1px black;}
+		textarea:not([type=submit]):valid{box-shadow: 0 0 3px 1px #8FDC00;}
+		textarea:not([type=submit]):invalid{box-shadow: 0 0 3px 1px #ECA735; border: solid 1px black }
+		textarea{width:150px;}
+
+        
+        button{
+border: 2px;
+background: #FFFFFF;
+color: black;
+padding: 6px;
+font-size: 15px;
+border-radius: 5px;
+position: relative;
+box-shadow: inset 0 0 0 2px black;
+transition: all 500ms ease;
+}
+
+button:hover {
+background: #8FDC00;;
+color: #f2f2f2;
+box-shadow: inset 0 0 0 1px black;
+}
+	</style>
